@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Photoshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 class="filter-h2">Online Photoshop ;)</h1>
+<p class="filter-text">Choose filter what yoou like to accept to your img</p>
+<div class="filters">
+
+    <div class="filter-item">
+        <img src="img/wb.jpg" alt="greyscale" class="filter-img" title="grayscale(100%)">
+        <div class="filter-title">grayscale</div>
+    </div>
+    <div class="filter-item">
+        <img src="img/contrast.jpg" alt="contrast" class="filter-img" title="contrast(115%)">
+        <div class="filter-title">contrast</div>
+    </div>
+    <div class="filter-item">
+        <img src="img/blur.jpg" alt="blur" class="filter-img" title="blur(3px)">
+        <div class="filter-title">blur</div>
+    </div>
+    <div class="filter-item">
+        <img src="img/hue.jpg" alt="hue" class="filter-img" title="hue-rotate(320deg)">
+        <div class="filter-title">hue</div>
+    </div>
+    <div class="filter-item">
+        <img src="img/sepia.jpg" alt="sepia" class="filter-img" title="sepia(80%)">
+        <div class="filter-title">sepia</div>
+    </div>
+</div>
+<div class="picture">
+    Your photo can be here!
+</div>
+<form action="#" method="post" class="filter__form">
+<label for="image_uploads" class="filter__form-label">Choose images to upload (PNG, JPG)</label>
+<input type="file" id="image_uploads" class="filter__form-btn" value="" name="img-file" accept=".jpg, .jpeg, .png">
+</form>
+
+
+<script src="addFilter.js" type="application/javascript"></script>
+</body>
+</html>
