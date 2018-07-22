@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu');
+body{
+    font-family: 'Gaegu', cursive;
+    font-size: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.picture{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    background-color: #e6e6e6;
+    line-height: 400px;
+    color: #333;
+    font-size: 1.5em;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    filter: none;
+    -webkit-filter: none;
+}
+.red{
+    color: #c51b5c;
+}
+.border{
+    outline: 3px solid #c51b5c;
+}
+.filters{
+    display: flex;
+    flex-flow: row;
+}
+
+.filter-img{
+    width: 120px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in;
+}
+.filter-img:hover{
+    transform: scale(1.03);
+}
+.filter-item{
+    margin: 20px 10px;
+}
+.filter__form{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+.filter__form-label{
+    cursor: pointer;
+    border-radius:10px;
+    padding: 10px;
+    background-color: #f88f9d;
+}
+.filter__form-label:hover{
+    color: #fff;
+    background-color: #881441;
+}
+.filter__form-btn{
+    opacity: 0;
+}
