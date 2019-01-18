@@ -1,7 +1,8 @@
 # online-Photoshop
+
 Создание виртуального инструмента для добавления фильтров на пользовательские изображения. 
 
 На страницу загружается файл формата jpg или png и после
 обрабатывается средствами CSS
 
-Web версия https://tagea.github.io/online-Photoshop/
+Web-версия [Photoshop 1.0](https://tagea.github.io/online-Photoshop/)
